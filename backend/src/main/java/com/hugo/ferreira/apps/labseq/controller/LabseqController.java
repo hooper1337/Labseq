@@ -9,6 +9,7 @@ import java.math.BigInteger;
 
 @RestController
 @RequestMapping("/labseq")
+@CrossOrigin(origins = "http://localhost:4200/")
 public class LabseqController
 {
     private final LabseqService labseqService;

@@ -1,7 +1,5 @@
 package com.hugo.ferreira.apps.labseq.model;
 
-import com.sun.jdi.IntegerType;
-
 import java.math.BigInteger;
 import java.util.HashMap;
 
