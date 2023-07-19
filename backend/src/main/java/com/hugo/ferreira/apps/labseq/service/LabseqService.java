@@ -23,17 +23,6 @@ public class LabseqService
         {
             return labseqModel.get(n);
         }
-
-        // Verify if n is 0 or 2
-        if(n == 0 || n == 2)
-        {
-            return BigInteger.ZERO;
-        }
-        // Verify if n is 1 or 3
-        else if (n == 1 || n == 3)
-        {
-            return BigInteger.ONE;
-        }
         // Get normal sequence
         else
         {
